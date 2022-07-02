@@ -1,0 +1,91 @@
+body {
+	margin: 0;
+	padding: 0;
+	background:#34495e;
+	font-family: sans-serif;
+}
+
+.box {
+	height: 500px;
+	width: 300px;
+	padding: 50px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+	transform: translate(-50%,-50%);
+	background: #191919;
+	text-align: center;
+}
+.box h1 {
+	color: white;
+	font-weight: 500;
+}
+.box h2 {
+	top: 90%;
+	left: 10%;
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-size: 12px;
+
+}
+.box input[type = "text"],.box input[type = "password"],.box input[type = "email"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #3498db;
+	padding: 14px 15px;
+	outline: none;
+	color: white;
+	border-radius: 25px;
+	transition: 0.95s;
+}
+.box input[type = "text"]:focus,.box input[type = "password"]:focus,.box input[type = "email"]:focus{
+	width: 280px;
+	border-color:#2ecc71 
+}
+.box input[type = "checkbox"] {
+	top: 90%;
+	left: 5%;
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+}
+.box input[type = "submit"] {
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 13px 35px;
+	outline: none;
+	color: white;
+	border-radius: 25px;
+	cursor: pointer;
+}
+.box input[type = "submit"]:hover {
+	background: #2ecc71
+}
+#login {
+	left: 42%;
+	top: 73%;
+	position: absolute;
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 13px 35px;
+	outline: none;
+	color: white;
+	border-radius: 25px;
+	cursor: pointer;
+}
+#login:hover {
+	background: #2ecc71
+}
